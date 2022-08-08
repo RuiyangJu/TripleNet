@@ -1,4 +1,4 @@
-# [ThreshNet: An Efficient DenseNet Using Threshold Mechanism to Reduce Connections](https://arxiv.org/abs/2201.03013)
+# [Efficient Convolutional Neural Networks on Raspberry Pi for Image Classification](https://arxiv.org/abs/2204.00943)
 <p align="center">
   <img src="Img/threshnet.jpg" width="640" title="threshnet">
 </p>
