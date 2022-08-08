@@ -44,9 +44,9 @@ optional arguments:
 | TripleNet-B | 6, 16, 16, 16, 3 | 128, 192, 256, 320, 1080 | 32, 16, 20, 40, 160 |
 
 ## Results
-| Name | GPU Time (ms) | C10 Error (%) | FLOPs (G) | MAdd (G) | Memory (MB) | #Params (M) |
+| Name | Raspberry Pi 4 Time (ms) | C10 Error (%) | FLOPs (G) | MAdd (G) | Memory (MB) | #Params (M) |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| **ThreshNet28** | 0.35 | 14.75 | 2.28 | 4.55 | 83.26 | 10.18 |
+| **TripleNet-S** | 38.7 | 6.18 | 4.17 | 8.32 | 90.25 | 9.67 |
 | SqueezeNet | 0.36 | 14.25 | 2.69 | 5.32 | 211.42 | 0.78 |
 | MobileNet | 0.38 | 16.12 | 2.34 | 4.63 | 230.84 | 3.32 |
 | **ThreshNet79** | 0.42 | 13.66  | 3.46 | 6.90 | 109.68  | 14.31 |
