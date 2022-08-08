@@ -4,12 +4,11 @@
 </p>
 
 ## Citation
-If you find ThreshNet useful in your research, please consider citing:
+If you find TripleNet useful in your research, please consider citing:
 
-	@article{ThreshNet 2022,
-	 title={ThreshNet: An Efficient DenseNet using Threshold Mechanism to Reduce Connections},
-	 author={Rui-Yang Ju, Ting-Yu Lin, Jia-Hao Jian, Jen-Shiun Chiang, Wei-Bin Yang},
-	 journal={IEEE Access},
+	@article{TripleNet,
+	 title={Efficient Convolutional Neural Networks on Raspberry Pi for Image Classification},
+	 author={Rui-Yang Ju, Ting-Yu Lin, Jia-Hao Jian, Jen-Shiun Chiang},
 	 year={2022}
 	 }
 	 
