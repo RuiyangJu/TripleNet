@@ -22,7 +22,7 @@ If you find TripleNet useful in your research, please consider citing:
 7. [References](#References)
 
 ## Introduction
-TripleNet is adopted from the concept of block connections in ThreshNet, it compresses and accelerates the network model, reduces the amount of parameters of the network, and shortens the inference time of each image while ensuring the accuracy. TripleNet and other state-of-the-art (SOTA) neural networks perform image classification experiments with the CIFAR-10 and SVHN datasets on Raspberry Pi. The experimental results show that, compared with GhostNet, MobileNet, ThreshNet, EfficientNet, and HarDNet, the inference time of TripleNet per image is shortened by 15%, 16%, 17%, 24%, and 30%, respectively.
+TripleNet is adopted from the concept of block connections in ThreshNet, it compresses and accelerates the network model, reduces the amount of parameters of the network, and shortens the inference time of each image while ensuring the accuracy. TripleNet and other state-of-the-art (SOTA) neural networks perform image classification experiments with the CIFAR-10 and SVHN datasets on Raspberry Pi. The experimental results show that, compared with MobileNet, ThreshNet, EfficientNet, and HarDNet, the inference time of TripleNet per image is shortened by 16%, 17%, 24%, and 30%, respectively.
 
  <img src="Img/conv_layers.jpg" width="640" title="conv_layers">
 
@@ -46,16 +46,15 @@ optional arguments:
 ## Results
 | Name | Raspberry Pi 4 Time (ms) | C10 Error (%) | FLOPs (G) | MAdd (G) | Memory (MB) | #Params (M) |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| **TripleNet-S** | 38.7 | 6.18 | 4.17 | 8.32 | 90.25 | 9.67 |
-| ThreshNet-28 | 41.5 | 6.34 | 2.28 | 4.55 | 83.26 | 10.18 |
-| ShuffleNet | 45.6 | 6.34 | 2.22 | 4.31 | 617.00 | 1.01 |
-| MobileNetV2 | 52.1 | 6.68 | 2.42 | 4.75 | 384.78 | 2.37 |
-| GhostNet | 66.2 | 8.36 | 0.15 | 0.29 | 40.05 | 5.18 |
-| **TripleNet-B** | 66.2 | 5.67 | 4.29 | 8.57 | 91.33 | 12.63 |
-| MobileNet | 73.8 | 7.36 | 2.34 | 4.63 | 230.84 | 3.32 | 
-| ThreshNet-95 | 78.6 | 6.89 | 4.07 | 8.12 | 132.34 | 16.19 |
-| EfficientNet-B0 | 90.8 | 6.12 | 1.51 | 2.99 | 203.74 | 3.60 | 
-| HarDNet-85 | 94.8 | 6.91 | 9.10 | 18.18 | 74.65 | 36.67 |
+| **TripleNet-S** | 40.6 | 13.05 | 4.17 | 8.32 | 90.25 | 9.67 |
+| ShuffleNet | 44.1 | 13.35 | 2.22 | 4.31 | 617.00 | 1.01 |
+| ThreshNet-28 | 45.3 | 14.75 | 2.28 | 4.55 | 83.26 | 10.18 |
+| **TripleNet-B** | 65.1 | 12.97 | 4.29 | 8.57 | 91.33 | 12.63 |
+| MobileNetV2 | 67.4 | 14.06 | 2.42 | 4.75 | 384.78 | 2.37 |
+| MobileNet | 76.8 | 16.12 | 2.34 | 4.63 | 230.84 | 3.32 | 
+| ThreshNet-95 | 77.9 | 13.31 | 4.07 | 8.12 | 132.34 | 16.19 |
+| EfficientNet-B0 | 85.4 | 13.40 | 1.51 | 2.99 | 203.74 | 3.60 | 
+| HarDNet-85 | 92.5 | 13.89 | 9.10 | 18.18 | 74.65 | 36.67 |
 
 \* Raspberry Pi Time is the inference time per image on Raspberry Pi 4
 
