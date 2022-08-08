@@ -51,10 +51,11 @@ optional arguments:
 \* GPU Time is the inference time per image on NVIDIA RTX 3050
 
 ## Requirements
-* Python 3.6+
-* Pytorch 0.4.0+
-* Pandas 0.23.4+
-* NumPy 1.14.3+
+### Raspberry Pi 4 Model B 4GB
+* python3 - 3.9.2
+* torch - 1.11.0
+* torchvision - 0.12
+* numpy - 1.22.3
 
 ## Config
 ###### Optimizer 
