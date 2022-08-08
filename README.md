@@ -48,7 +48,7 @@ optional arguments:
 | **ThreshNet95** | 0.46 | 13.31 | 4.07 | 8.12 | 132.34 | 16.19 | 
 | HarDNet85 | 0.50 | 13.89 | 9.10 | 18.18 | 74.65 | 36.67 |
 
-\* GPU Time is the inference time per image on NVIDIA RTX 3050
+\* Raspberry Pi Time is the inference time per image on Raspberry Pi 4
 
 ## Requirements
 #### Raspberry Pi 4 Model B 4GB
