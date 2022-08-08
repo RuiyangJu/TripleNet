@@ -15,10 +15,11 @@ If you find TripleNet useful in your research, please consider citing:
 ## Contents
 1. [Introduction](#introduction)
 2. [Usage](#Usage)
-2. [Results](#Results)
-3. [Requirements](#Requirements)
-4. [Config](#Config)
-5. [References](#References)
+3. [Model](#Model)
+4. [Results](#Results)
+5. [Requirements](#Requirements)
+6. [Config](#Config)
+7. [References](#References)
 
 ## Introduction
 TripleNet is adopted from the concept of block connections in ThreshNet, it compresses and accelerates the network model, reduces the amount of parameters of the network, and shortens the inference time of each image while ensuring the accuracy. TripleNet and other state-of-the-art (SOTA) neural networks perform image classification experiments with the CIFAR-10 and SVHN datasets on Raspberry Pi. The experimental results show that, compared with GhostNet, MobileNet, ThreshNet, EfficientNet, and HarDNet, the inference time of TripleNet per image is shortened by 15%, 16%, 17%, 24%, and 30%, respectively.
@@ -35,6 +36,12 @@ optional arguments:
     --epoch             default=200     number of epochs tp train for
     --trainBatchSize    default=100     training batch size
     --testBatchSize     default=100     test batch size
+
+## Model
+| **Model** | **Layer** | **Channel** | **Growth Rate** |
+| :---: | :---: | :---: | :---: |
+| TripleNet-S | 6, 16, 16, 16, 2 | 128, 192, 256, 320, 720 | 32, 16, 20, 40, 160 |
+| TripleNet-B | 6, 16, 16, 16, 3 | 128, 192, 256, 320, 1080 | 32, 16, 20, 40, 160 |
 
 ## Results
 | Name | GPU Time (ms) | C10 Error (%) | FLOPs (G) | MAdd (G) | Memory (MB) | #Params (M) |
