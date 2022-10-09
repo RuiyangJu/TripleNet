@@ -8,7 +8,7 @@ If you find TripleNet useful in your research, please consider citing:
 
 	@article{TripleNet,
 	 title={Efficient Convolutional Neural Networks on Raspberry Pi for Image Classification},
-	 author={Rui-Yang Ju, Ting-Yu Lin, Jia-Hao Jian, Jen-Shiun Chiang},
+	 author={Rui-Yang Ju, Jen-Shiun Chiang, Jia-Hao Jian, Ting-Yu Lin},
 	 year={2022}
 	 }
 	 
