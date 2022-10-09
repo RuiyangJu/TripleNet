@@ -37,6 +37,10 @@ optional arguments:
     --trainBatchSize    default=64     training batch size
     --testBatchSize     default=64     test batch size
 
+pre-training:
+
+    return TripleNet(pretrained=True, weight_path='your pre-trained model address')
+
 ## Model
 | **Model** | **Layer** | **Channel** | **Growth Rate** |
 | :---: | :---: | :---: | :---: |
