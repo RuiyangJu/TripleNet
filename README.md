@@ -34,8 +34,8 @@ optional arguments:
 
     --lr                default=1e-3    learning rate
     --epoch             default=200     number of epochs tp train for
-    --trainBatchSize    default=100     training batch size
-    --testBatchSize     default=100     test batch size
+    --trainBatchSize    default=64     training batch size
+    --testBatchSize     default=64     test batch size
 
 ## Model
 | **Model** | **Layer** | **Channel** | **Growth Rate** |
