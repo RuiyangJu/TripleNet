@@ -41,6 +41,14 @@ pre-training:
 
     return TripleNet(pretrained=True, weight_path='your pre-trained model address')
 
+## Config
+###### Optimizer 
+__Adam Optimizer__
+###### Learning Rate
+__1e-3__ for [1,74] epochs <br>
+__5e-4__ for [75,149] epochs <br>
+__2.5e-4__ for [150,200) epochs <br>
+
 ## Model
 | **Model** | **Layer** | **Channel** | **Growth Rate** |
 | :---: | :---: | :---: | :---: |
@@ -68,15 +76,6 @@ pre-training:
 * torch - 1.11.0
 * torchvision - 0.12
 * numpy - 1.22.3
-
-## Config
-###### Optimizer 
-__Adam Optimizer__
-###### Learning Rate
-__1e-3__ for [1,74] epochs <br>
-__5e-4__ for [75,149] epochs <br>
-__2.5e-4__ for [150,200) epochs <br>
-
 
 ## References
 * [torchstat](https://github.com/Swall0w/torchstat)
