@@ -15,10 +15,10 @@ If you find TripleNet useful in your research, please consider citing:
 ## Contents
 1. [Introduction](#introduction)
 2. [Usage](#Usage)
-3. [Model](#Model)
-4. [Results](#Results)
-5. [Requirements](#Requirements)
-6. [Config](#Config)
+3. [Config](#Config)
+4. [Model](#Model)
+5. [Results](#Results)
+6. [Requirements](#Requirements)
 7. [References](#References)
 
 ## Introduction
