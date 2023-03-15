@@ -6,11 +6,15 @@
 ## Citation
 If you find TripleNet useful in your research, please consider citing:
 
-	@article{ju2022triplenet,
-	  title={TripleNet: A Low Computing Power Platform of Low-Parameter Network},
+	@article{ju2023efficient,
+	  title={Efficient convolutional neural networks on Raspberry Pi for image classification},
 	  author={Ju, Rui-Yang and Lin, Ting-Yu and Jian, Jia-Hao and Chiang, Jen-Shiun},
-	  journal={arXiv preprint arXiv:2204.00943},
-	  year={2022}
+	  journal={Journal of Real-Time Image Processing},
+	  volume={20},
+	  number={2},
+	  pages={1--9},
+	  year={2023},
+	  publisher={Springer}
 	}
 	 
 ## Contents
