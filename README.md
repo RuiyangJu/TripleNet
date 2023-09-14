@@ -1,4 +1,14 @@
-# [Efficient Convolutional Neural Networks on Raspberry Pi for Image Classification](https://arxiv.org/abs/2204.00943)
+# Efficient Convolutional Neural Networks on Raspberry Pi for Image Classification
+
+< [Efficient Convolutional Neural Networks on Raspberry Pi for Image Classification](https://arxiv.org/abs/2204.00943)
+
+## Abstract
+TripleNet is adopted from the concept of block connections in ThreshNet, it compresses and accelerates the network model, reduces the amount of parameters of the network, and shortens the inference time of each image while ensuring the accuracy. TripleNet and other state-of-the-art (SOTA) neural networks perform image classification experiments with the CIFAR-10 and SVHN datasets on Raspberry Pi. The experimental results show that, compared with MobileNet, ThreshNet, EfficientNet, and HarDNet, the inference time of TripleNet per image is shortened by 16%, 17%, 24%, and 30%, respectively.
+
+<p align="center">
+ <img src="Img/conv_layers.jpg" width="640" title="conv_layers">
+</p>
+ 
 <p align="center">
   <img src="Img/architecture.jpg" width="640" title="architecture">
 </p>
@@ -25,11 +35,6 @@ If you find TripleNet useful in your research, please consider citing:
 5. [Results](#Results)
 6. [Requirements](#Requirements)
 7. [References](#References)
-
-## Introduction
-TripleNet is adopted from the concept of block connections in ThreshNet, it compresses and accelerates the network model, reduces the amount of parameters of the network, and shortens the inference time of each image while ensuring the accuracy. TripleNet and other state-of-the-art (SOTA) neural networks perform image classification experiments with the CIFAR-10 and SVHN datasets on Raspberry Pi. The experimental results show that, compared with MobileNet, ThreshNet, EfficientNet, and HarDNet, the inference time of TripleNet per image is shortened by 16%, 17%, 24%, and 30%, respectively.
-
- <img src="Img/conv_layers.jpg" width="640" title="conv_layers">
 
 ## Usage
 ```bash
