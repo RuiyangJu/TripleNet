@@ -68,7 +68,7 @@ pre-training:
 | TripleNet-B | 6, 16, 16, 16, 3 | 128, 192, 256, 320, 1080 | 32, 16, 20, 40, 160 |
 
 ## Results
-| Name | Raspberry Pi 4 Time (ms) | C10 Error (%) | FLOPs (G) | MAdd (G) | Memory (MB) | #Params (M) |
+| Name | Raspberry Pi 4 Time \* (ms) | C10 Error (%) | FLOPs (G) | MAdd (G) | Memory (MB) | #Params (M) |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 | **TripleNet-S** | 40.6 | 13.05 | 4.17 | 8.32 | 90.25 | 9.67 |
 | ShuffleNet | 44.1 | 13.35 | 2.22 | 4.31 | 617.00 | 1.01 |
