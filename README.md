@@ -1,17 +1,16 @@
-# Efficient Convolutional Neural Networks on Raspberry Pi for Image Classification
+# TripleNet
 
 > [Efficient Convolutional Neural Networks on Raspberry Pi for Image Classification](https://arxiv.org/abs/2204.00943)
 
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/triplenet-a-low-computing-power-platform-of/image-classification-on-svhn)](https://paperswithcode.com/sota/image-classification-on-svhn?p=triplenet-a-low-computing-power-platform-of)
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/triplenet-a-low-computing-power-platform-of/image-classification-on-cifar-10)](https://paperswithcode.com/sota/image-classification-on-cifar-10?p=triplenet-a-low-computing-power-platform-of)
 
-## Abstract
-TripleNet is adopted from the concept of block connections in ThreshNet, it compresses and accelerates the network model, reduces the amount of parameters of the network, and shortens the inference time of each image while ensuring the accuracy. TripleNet and other state-of-the-art (SOTA) neural networks perform image classification experiments with the CIFAR-10 and SVHN datasets on Raspberry Pi. The experimental results show that, compared with MobileNet, ThreshNet, EfficientNet, and HarDNet, the inference time of TripleNet per image is shortened by 16%, 17%, 24%, and 30%, respectively.
-
+## Architecture
 <p align="center">
   <img src="Img/architecture.jpg" width="640" title="architecture">
 </p>
 
+## Layers
 <p align="center">
  <img src="Img/conv_layers.jpg" width="640" title="conv_layers">
 </p>
@@ -56,11 +55,11 @@ pre-training:
 
 ## Config
 ###### Optimizer 
-__Adam Optimizer__
+* __Adam Optimizer__
 ###### Learning Rate
-__1e-3__ for [1,74] epochs <br>
-__5e-4__ for [75,149] epochs <br>
-__2.5e-4__ for [150,200) epochs <br>
+* __1e-3__ for [1,74] epochs <br>
+* __5e-4__ for [75,149] epochs <br>
+* __2.5e-4__ for [150,200) epochs <br>
 
 ## Model
 | **Model** | **Layer** | **Channel** | **Growth Rate** |
@@ -91,6 +90,9 @@ __2.5e-4__ for [150,200) epochs <br>
 * numpy - 1.22.3
 
 ## References
+
+<details><summary> <b>GitHub</b> </summary>
+	
 * [torchstat](https://github.com/Swall0w/torchstat)
 * [pytorch-cifar10](https://github.com/soapisnotfat/pytorch-cifar10)
 * [HarDNet](https://github.com/PingoLH/Pytorch-HarDNet)
