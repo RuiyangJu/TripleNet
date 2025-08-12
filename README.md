@@ -2,8 +2,6 @@
 
 > [Efficient Convolutional Neural Networks on Raspberry Pi for Image Classification](https://arxiv.org/abs/2204.00943)
 
-[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/triplenet-a-low-computing-power-platform-of/image-classification-on-svhn)](https://paperswithcode.com/sota/image-classification-on-svhn?p=triplenet-a-low-computing-power-platform-of)
-
 ## Architecture
 <p align="center">
   <img src="Img/architecture.jpg" width="640" title="architecture">
